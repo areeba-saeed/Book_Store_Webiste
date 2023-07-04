@@ -1,0 +1,35 @@
+.search-bar-container {
+  position: relative;
+}
+
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  color: black;
+  border-top: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.search-suggestions li {
+  padding: 10px;
+}
+
+.input-navbar {
+  width: 200px;
+  height: 40px;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.links {
+  font-size: 20px;
+  color: white;
+}
